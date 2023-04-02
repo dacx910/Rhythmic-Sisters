@@ -9,7 +9,8 @@ public class Activator : MonoBehaviour
     GameObject note;
     SpriteRenderer sr;
     Color old;
-
+    
+    public static int score = 0;
     // Start is called before the first frame update
     void Awake()
     {
@@ -32,6 +33,8 @@ public class Activator : MonoBehaviour
         if(Input.GetKeyDown(key) && active)
         {
             Destroy(note);
+            AddScore();
+            active = false;
         }
     }
 
@@ -47,6 +50,16 @@ public class Activator : MonoBehaviour
     void OnTriggerExit2D(Collider2D col)
     {
         active = false;
+    }
+
+    void AddScore()
+    {
+        score += 100;
+    }
+
+    public static int getScore()
+    {
+        return score;
     }
 
     IEnumerator Pressed()
