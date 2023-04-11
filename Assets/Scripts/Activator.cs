@@ -29,12 +29,20 @@ public class Activator : MonoBehaviour
         {
             StartCoroutine(Pressed());
         }
-
         if(Input.GetKeyDown(key) && active)
         {
             Destroy(note);
             AddScore();
             active = false;
+        }
+        else if(Input.GetKeyDown(key) && !active)
+        {
+            LowerScore();
+        }
+        
+        if(score <= 0)
+        {
+            score = 0;
         }
     }
 
@@ -55,6 +63,11 @@ public class Activator : MonoBehaviour
     void AddScore()
     {
         score += 100;
+    }
+    
+    void LowerScore()
+    {
+        score -= 20;
     }
 
     public static int getScore()
