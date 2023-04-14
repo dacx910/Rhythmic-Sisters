@@ -8,6 +8,7 @@ public class SS_Movement : MonoBehaviour
     [SerializeField] private float jump_height = 10;
     private Animator anim;
     private Rigidbody2D body;
+    private bool grounded;
 
     private void Awake()
     {
@@ -29,11 +30,23 @@ public class SS_Movement : MonoBehaviour
             transform.localScale = new Vector3(-1,1,1);
         }
 
-        if (Input.GetKey(KeyCode.Space)) {
-            body.velocity = new Vector2(body.velocity.x, jump_height);
+        if (Input.GetKey(KeyCode.Space) && grounded) {
+           Jump();
         }
 
         // Set animator parameters
         anim.SetBool("run", horizontalInput != 0);
+        anim.SetBool("grounded", grounded);
+    }
+
+    private void Jump() {
+        body.velocity = new Vector2(body.velocity.x, jump_height);
+        grounded = false;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision) {
+        if (collision.gameObject.tag == "Ground") {
+            grounded = true;
+        }
     }
 }
