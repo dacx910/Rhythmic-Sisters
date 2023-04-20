@@ -35,9 +35,9 @@ public class Activator : MonoBehaviour
             AddScore();
             active = false;
         }
-        else if(Input.GetKeyDown(key) && !active)
+        else if(Input.GetKeyDown(key) && active)
         {
-            LowerScore();
+            LowerScore(20);
         }
         
         if(score <= 0)
@@ -65,9 +65,9 @@ public class Activator : MonoBehaviour
         score += 100;
     }
     
-    void LowerScore()
+    public static void LowerScore(int lowScore)
     {
-        score -= 20;
+        score -= lowScore;
     }
 
     public static int getScore()
