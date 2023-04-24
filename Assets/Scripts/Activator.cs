@@ -40,6 +40,7 @@ public class Activator : MonoBehaviour
             if(Input.GetKeyDown(key))
             {
                 StartCoroutine(Pressed());
+                active = true;
             }
             if(Input.GetKeyDown(key) && active)
             {

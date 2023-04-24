@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 471}
   m_MaxSize: {x: 10000, y: 10000}
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 46
+  controlID: 55
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -72,7 +72,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 47
+  controlID: 56
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -99,7 +99,7 @@ MonoBehaviour:
   - {fileID: 16}
   - {fileID: 14}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SpriteEditorWindow
+  m_Name: SceneHierarchyWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -119,14 +119,14 @@ MonoBehaviour:
     y: 0
     width: 363
     height: 562
-  m_MinSize: {x: 361, y: 221}
+  m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
   - {fileID: 13}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 48
+  controlID: 57
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -273,7 +273,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 18
+  controlID: 58
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -334,7 +334,7 @@ MonoBehaviour:
   m_Zoom: 14.972735
   m_ScrollPosition: {x: -80.05396, y: 59.56942}
   m_SelectedObject: {fileID: 0}
-  m_SelectedSpriteRectGUID: 5e97eb03825dee720800000000000000
+  m_SelectedSpriteRectGUID: 00000000000000000000000000000000
   m_LastUsedModuleTypeName: 
 --- !u!114 &14
 MonoBehaviour:
@@ -356,8 +356,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1467
-    y: 19
+    x: 1466
+    y: 73
     width: 453
     height: 926
   m_ViewDataDictionary: {fileID: 0}
@@ -372,8 +372,8 @@ MonoBehaviour:
   currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 1
-  changeTab: 2
-  activeTab: 2
+  changeTab: 3
+  activeTab: 3
   initProjectView:
     hasCompletedInitialCheck: 0
     isUserDataPresent: 0
@@ -627,7 +627,7 @@ MonoBehaviour:
     - name: origin/master
       tracking: '[None]'
   changesView:
-    currentBranchHasUpdate: 0
+    currentBranchHasUpdate: 1
     currentStatusEntriesHasUpdate: 0
     currentLocksHasUpdate: 0
     commitBody: 
@@ -636,164 +636,11 @@ MonoBehaviour:
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys:
-        - 00000000000000001000000000000000
-        - 9309503b73657b54395149e4f8a41fd8
-        - 792d385ed3dacea43a211191b8ce2a4f
-        - 943fe816101e58b44a7a63bb909d4df7
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Sprites
-          label: Sprites
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Sprites\Activator Sprite.png
-          label: Activator Sprite.png
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprites\Activator Sprite.png
-            fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Sprites\Activator
-              Sprite.png
-            projectPath: Assets\Sprites\Activator Sprite.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Sprites\Activator.cs
-          label: Activator.cs
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprites\Activator.cs
-            fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Sprites\Activator.cs
-            projectPath: Assets\Sprites\Activator.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
+        keys: []
+        values: []
       folders:
-        keys:
-        - .vscode
-        - Assets
-        - Assets\Sprites
-        - UserSettings
-        values:
-        - path: .vscode
-          label: .vscode
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Sprites
-          label: Sprites
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings
-          label: UserSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
+        keys: []
+        values: []
       checkedFileNodes:
         keys: []
         values: []
@@ -822,206 +669,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: .vscode
-        label: .vscode
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: .vscode\settings.json
-        label: settings.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .vscode\settings.json
-          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\.vscode\settings.json
-          projectPath: .vscode\settings.json
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets
-        label: Assets
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Sprites.meta
-        label: Sprites.meta
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites.meta
-          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Sprites.meta
-          projectPath: Assets\Sprites.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites
-        label: Sprites
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Sprites\Activator Sprite.png
-        label: Activator Sprite.png
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\Activator Sprite.png
-          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Sprites\Activator
-            Sprite.png
-          projectPath: Assets\Sprites\Activator Sprite.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\Activator Sprite.png.meta
-        label: Activator Sprite.png.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\Activator Sprite.png.meta
-          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Sprites\Activator
-            Sprite.png.meta
-          projectPath: Assets\Sprites\Activator Sprite.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\Activator.cs
-        label: Activator.cs
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\Activator.cs
-          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Sprites\Activator.cs
-          projectPath: Assets\Sprites\Activator.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Sprites\Activator.cs.meta
-        label: Activator.cs.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\Activator.cs.meta
-          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Sprites\Activator.cs.meta
-          projectPath: Assets\Sprites\Activator.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: UserSettings
-        label: UserSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Search.settings
-        label: Search.settings
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\Search.settings
-          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\UserSettings\Search.settings
-          projectPath: UserSettings\Search.settings
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       selectedNode:
         path: 
         label: 
@@ -1041,54 +688,10 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-    gitStatusEntries:
-    - path: .vscode\settings.json
-      fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\.vscode\settings.json
-      projectPath: .vscode\settings.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites.meta
-      fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Sprites.meta
-      projectPath: Assets\Sprites.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\Activator Sprite.png
-      fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Sprites\Activator
-        Sprite.png
-      projectPath: Assets\Sprites\Activator Sprite.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\Activator Sprite.png.meta
-      fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Sprites\Activator
-        Sprite.png.meta
-      projectPath: Assets\Sprites\Activator Sprite.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\Activator.cs
-      fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Sprites\Activator.cs
-      projectPath: Assets\Sprites\Activator.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Sprites\Activator.cs.meta
-      fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Sprites\Activator.cs.meta
-      projectPath: Assets\Sprites\Activator.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\Search.settings
-      fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\UserSettings\Search.settings
-      projectPath: UserSettings\Search.settings
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    changedFilesText: 7 changed files
+    gitStatusEntries: []
+    changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-03-31T13:53:13.901-04:00
+      updatedTimeString: 2023-04-24T13:42:58.463-04:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
@@ -1097,9 +700,452 @@ MonoBehaviour:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
   historyView:
-    currentLogHasUpdate: 1
-    currentTrackingStatusHasUpdate: 1
+    currentLogHasUpdate: 0
+    currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: 27d442a82d235c7328a39869b69905814db247dd
+      mergeA: 
+      mergeB: 
+      authorName: 4-KRussell
+      authorEmail: 82389391+4-KRussell@users.noreply.github.com
+      commitEmail: 82389391+4-KRussell@users.noreply.github.com
+      commitName: 4-KRussell
+      summary: Some changes
+      description: 
+      timeString: 2023-04-17T13:41:03.000-04:00
+      commitTimeString: 2023-04-17T13:41:03.000-04:00
+      changes:
+      - path: Assets\Scene.unity
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Scene.unity
+        projectPath: Assets\Scene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: ProjectSettings\QualitySettings.asset
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\ProjectSettings\QualitySettings.asset
+        projectPath: ProjectSettings\QualitySettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: eb3b9e2f301e0f9b520b5cbd702a6f6efffdb553
+      mergeA: 
+      mergeB: 
+      authorName: 4-KRussell
+      authorEmail: 82389391+4-KRussell@users.noreply.github.com
+      commitEmail: 82389391+4-KRussell@users.noreply.github.com
+      commitName: 4-KRussell
+      summary: Lower score when miss
+      description: 
+      timeString: 2023-04-11T13:59:50.000-04:00
+      commitTimeString: 2023-04-11T13:59:50.000-04:00
+      changes:
+      - path: Assets\Black Sabbath - Iron Man (Audio) [Jw1EXRK3Ijw].mp3
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Black
+          Sabbath - Iron Man (Audio) [Jw1EXRK3Ijw].mp3
+        projectPath: Assets\Black Sabbath - Iron Man (Audio) [Jw1EXRK3Ijw].mp3
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Black Sabbath - Iron Man (Audio) [Jw1EXRK3Ijw].mp3.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Black
+          Sabbath - Iron Man (Audio) [Jw1EXRK3Ijw].mp3.meta
+        projectPath: Assets\Black Sabbath - Iron Man (Audio) [Jw1EXRK3Ijw].mp3.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene.unity
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Scene.unity
+        projectPath: Assets\Scene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Activator.cs
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Scripts\Activator.cs
+        projectPath: Assets\Scripts\Activator.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: b8959d4b0aacdfe95f5bae7be7236e89d8bae0f6
+      mergeA: 
+      mergeB: 
+      authorName: 4-KRussell
+      authorEmail: 82389391+4-KRussell@users.noreply.github.com
+      commitEmail: 82389391+4-KRussell@users.noreply.github.com
+      commitName: 4-KRussell
+      summary: Stuff
+      description: 
+      timeString: 2023-04-06T13:58:12.000-04:00
+      commitTimeString: 2023-04-06T13:58:12.000-04:00
+      changes:
+      - path: Assets\Music.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Music.meta
+        projectPath: Assets\Music.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Music\Audiowide-Regular.ttf
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Music\Audiowide-Regular.ttf
+        projectPath: Assets\Music\Audiowide-Regular.ttf
+        originalPath: Assets\Audiowide-Regular.ttf
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Music\Audiowide-Regular.ttf.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Music\Audiowide-Regular.ttf.meta
+        projectPath: Assets\Music\Audiowide-Regular.ttf.meta
+        originalPath: Assets\Audiowide-Regular.ttf.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Music\Iron Man [F01UTYg79KY].mp3
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Music\Iron
+          Man [F01UTYg79KY].mp3
+        projectPath: Assets\Music\Iron Man [F01UTYg79KY].mp3
+        originalPath: Assets\Iron Man [F01UTYg79KY].mp3
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Music\Iron Man [F01UTYg79KY].mp3.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Music\Iron
+          Man [F01UTYg79KY].mp3.meta
+        projectPath: Assets\Music\Iron Man [F01UTYg79KY].mp3.meta
+        originalPath: Assets\Iron Man [F01UTYg79KY].mp3.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Music\The Rolling Stones - Sympathy For The Devil (Official
+          Lyric Video) [GgnClrx8N2k].mp3
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Music\The
+          Rolling Stones - Sympathy For The Devil (Official Lyric Video) [GgnClrx8N2k].mp3
+        projectPath: Assets\Music\The Rolling Stones - Sympathy For The Devil (Official
+          Lyric Video) [GgnClrx8N2k].mp3
+        originalPath: Assets\The Rolling Stones - Sympathy For The Devil (Official
+          Lyric Video) [GgnClrx8N2k].mp3
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Music\The Rolling Stones - Sympathy For The Devil (Official
+          Lyric Video) [GgnClrx8N2k].mp3.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Music\The
+          Rolling Stones - Sympathy For The Devil (Official Lyric Video) [GgnClrx8N2k].mp3.meta
+        projectPath: Assets\Music\The Rolling Stones - Sympathy For The Devil (Official
+          Lyric Video) [GgnClrx8N2k].mp3.meta
+        originalPath: Assets\The Rolling Stones - Sympathy For The Devil (Official
+          Lyric Video) [GgnClrx8N2k].mp3.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Scene 1.unity
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Scene
+          1.unity
+        projectPath: Assets\Scene 1.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene 1.unity.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Scene
+          1.unity.meta
+        projectPath: Assets\Scene 1.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Terrain.prefab
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Terrain.prefab
+        projectPath: Assets\Terrain.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Terrain.prefab.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Terrain.prefab.meta
+        projectPath: Assets\Terrain.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tile Stuff.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tile
+          Stuff.meta
+        projectPath: Assets\Tile Stuff.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles.meta
+        projectPath: Assets\Tiles.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet.asset
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet.asset
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet.asset.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet.asset.meta
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_0.asset
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_0.asset
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_0.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_0.asset.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_0.asset.meta
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_0.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_1.asset
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_1.asset
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_1.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_1.asset.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_1.asset.meta
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_1.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_10.asset
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_10.asset
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_10.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_10.asset.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_10.asset.meta
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_10.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_11.asset
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_11.asset
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_11.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_11.asset.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_11.asset.meta
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_11.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_12.asset
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_12.asset
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_12.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_12.asset.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_12.asset.meta
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_12.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_13.asset
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_13.asset
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_13.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_13.asset.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_13.asset.meta
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_13.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_14.asset
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_14.asset
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_14.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_14.asset.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_14.asset.meta
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_14.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_15.asset
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_15.asset
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_15.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_15.asset.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_15.asset.meta
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_15.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_16.asset
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_16.asset
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_16.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_16.asset.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_16.asset.meta
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_16.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_17.asset
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_17.asset
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_17.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_17.asset.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_17.asset.meta
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_17.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_18.asset
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_18.asset
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_18.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_18.asset.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_18.asset.meta
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_18.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_2.asset
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_2.asset
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_2.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_2.asset.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_2.asset.meta
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_2.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_3.asset
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_3.asset
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_3.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_3.asset.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_3.asset.meta
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_3.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_4.asset
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_4.asset
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_4.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_4.asset.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_4.asset.meta
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_4.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_5.asset
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_5.asset
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_5.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_5.asset.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_5.asset.meta
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_5.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_6.asset
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_6.asset
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_6.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_6.asset.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_6.asset.meta
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_6.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_7.asset
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_7.asset
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_7.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_7.asset.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_7.asset.meta
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_7.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_8.asset
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_8.asset
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_8.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_8.asset.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_8.asset.meta
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_8.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_9.asset
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_9.asset
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_9.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Tiles\rythmicsistertilemap-Sheet_9.asset.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_9.asset.meta
+        projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_9.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\rythmicsistertilemap-Sheet 1.png
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\rythmicsistertilemap-Sheet
+          1.png
+        projectPath: Assets\rythmicsistertilemap-Sheet 1.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\rythmicsistertilemap-Sheet 1.png.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\rythmicsistertilemap-Sheet
+          1.png.meta
+        projectPath: Assets\rythmicsistertilemap-Sheet 1.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\rythmicsistertilemap-Sheet.png
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\rythmicsistertilemap-Sheet.png
+        projectPath: Assets\rythmicsistertilemap-Sheet.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\rythmicsistertilemap-Sheet.png.meta
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\rythmicsistertilemap-Sheet.png.meta
+        projectPath: Assets\rythmicsistertilemap-Sheet.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
     - commitID: f4f78abd64cdb7e68e4256a6dcbafcb96415437a
       mergeA: 
       mergeB: 
@@ -1940,14 +1986,457 @@ MonoBehaviour:
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2023-04-18T13:37:25.703-04:00
+      updatedTimeString: 2023-04-20T13:22:17.055-04:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2023-04-18T13:34:06.545-04:00
+      updatedTimeString: 2023-04-20T13:22:17.063-04:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: 27d442a82d235c7328a39869b69905814db247dd
+        mergeA: 
+        mergeB: 
+        authorName: 4-KRussell
+        authorEmail: 82389391+4-KRussell@users.noreply.github.com
+        commitEmail: 82389391+4-KRussell@users.noreply.github.com
+        commitName: 4-KRussell
+        summary: Some changes
+        description: 
+        timeString: 2023-04-17T13:41:03.000-04:00
+        commitTimeString: 2023-04-17T13:41:03.000-04:00
+        changes:
+        - path: Assets\Scene.unity
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Scene.unity
+          projectPath: Assets\Scene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: ProjectSettings\QualitySettings.asset
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\ProjectSettings\QualitySettings.asset
+          projectPath: ProjectSettings\QualitySettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: eb3b9e2f301e0f9b520b5cbd702a6f6efffdb553
+        mergeA: 
+        mergeB: 
+        authorName: 4-KRussell
+        authorEmail: 82389391+4-KRussell@users.noreply.github.com
+        commitEmail: 82389391+4-KRussell@users.noreply.github.com
+        commitName: 4-KRussell
+        summary: Lower score when miss
+        description: 
+        timeString: 2023-04-11T13:59:50.000-04:00
+        commitTimeString: 2023-04-11T13:59:50.000-04:00
+        changes:
+        - path: Assets\Black Sabbath - Iron Man (Audio) [Jw1EXRK3Ijw].mp3
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Black
+            Sabbath - Iron Man (Audio) [Jw1EXRK3Ijw].mp3
+          projectPath: Assets\Black Sabbath - Iron Man (Audio) [Jw1EXRK3Ijw].mp3
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Black Sabbath - Iron Man (Audio) [Jw1EXRK3Ijw].mp3.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Black
+            Sabbath - Iron Man (Audio) [Jw1EXRK3Ijw].mp3.meta
+          projectPath: Assets\Black Sabbath - Iron Man (Audio) [Jw1EXRK3Ijw].mp3.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene.unity
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Scene.unity
+          projectPath: Assets\Scene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Activator.cs
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Scripts\Activator.cs
+          projectPath: Assets\Scripts\Activator.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: b8959d4b0aacdfe95f5bae7be7236e89d8bae0f6
+        mergeA: 
+        mergeB: 
+        authorName: 4-KRussell
+        authorEmail: 82389391+4-KRussell@users.noreply.github.com
+        commitEmail: 82389391+4-KRussell@users.noreply.github.com
+        commitName: 4-KRussell
+        summary: Stuff
+        description: 
+        timeString: 2023-04-06T13:58:12.000-04:00
+        commitTimeString: 2023-04-06T13:58:12.000-04:00
+        changes:
+        - path: Assets\Music.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Music.meta
+          projectPath: Assets\Music.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Music\Audiowide-Regular.ttf
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Music\Audiowide-Regular.ttf
+          projectPath: Assets\Music\Audiowide-Regular.ttf
+          originalPath: Assets\Audiowide-Regular.ttf
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Music\Audiowide-Regular.ttf.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Music\Audiowide-Regular.ttf.meta
+          projectPath: Assets\Music\Audiowide-Regular.ttf.meta
+          originalPath: Assets\Audiowide-Regular.ttf.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Music\Iron Man [F01UTYg79KY].mp3
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Music\Iron
+            Man [F01UTYg79KY].mp3
+          projectPath: Assets\Music\Iron Man [F01UTYg79KY].mp3
+          originalPath: Assets\Iron Man [F01UTYg79KY].mp3
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Music\Iron Man [F01UTYg79KY].mp3.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Music\Iron
+            Man [F01UTYg79KY].mp3.meta
+          projectPath: Assets\Music\Iron Man [F01UTYg79KY].mp3.meta
+          originalPath: Assets\Iron Man [F01UTYg79KY].mp3.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Music\The Rolling Stones - Sympathy For The Devil (Official
+            Lyric Video) [GgnClrx8N2k].mp3
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Music\The
+            Rolling Stones - Sympathy For The Devil (Official Lyric Video) [GgnClrx8N2k].mp3
+          projectPath: Assets\Music\The Rolling Stones - Sympathy For The Devil (Official
+            Lyric Video) [GgnClrx8N2k].mp3
+          originalPath: Assets\The Rolling Stones - Sympathy For The Devil (Official
+            Lyric Video) [GgnClrx8N2k].mp3
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Music\The Rolling Stones - Sympathy For The Devil (Official
+            Lyric Video) [GgnClrx8N2k].mp3.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Music\The
+            Rolling Stones - Sympathy For The Devil (Official Lyric Video) [GgnClrx8N2k].mp3.meta
+          projectPath: Assets\Music\The Rolling Stones - Sympathy For The Devil (Official
+            Lyric Video) [GgnClrx8N2k].mp3.meta
+          originalPath: Assets\The Rolling Stones - Sympathy For The Devil (Official
+            Lyric Video) [GgnClrx8N2k].mp3.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Scene 1.unity
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Scene
+            1.unity
+          projectPath: Assets\Scene 1.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene 1.unity.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Scene
+            1.unity.meta
+          projectPath: Assets\Scene 1.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Terrain.prefab
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Terrain.prefab
+          projectPath: Assets\Terrain.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Terrain.prefab.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Terrain.prefab.meta
+          projectPath: Assets\Terrain.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tile Stuff.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tile
+            Stuff.meta
+          projectPath: Assets\Tile Stuff.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles.meta
+          projectPath: Assets\Tiles.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet.asset
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet.asset
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet.asset.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet.asset.meta
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_0.asset
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_0.asset
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_0.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_0.asset.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_0.asset.meta
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_0.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_1.asset
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_1.asset
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_1.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_1.asset.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_1.asset.meta
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_1.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_10.asset
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_10.asset
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_10.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_10.asset.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_10.asset.meta
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_10.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_11.asset
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_11.asset
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_11.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_11.asset.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_11.asset.meta
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_11.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_12.asset
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_12.asset
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_12.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_12.asset.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_12.asset.meta
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_12.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_13.asset
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_13.asset
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_13.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_13.asset.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_13.asset.meta
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_13.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_14.asset
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_14.asset
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_14.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_14.asset.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_14.asset.meta
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_14.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_15.asset
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_15.asset
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_15.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_15.asset.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_15.asset.meta
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_15.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_16.asset
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_16.asset
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_16.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_16.asset.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_16.asset.meta
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_16.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_17.asset
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_17.asset
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_17.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_17.asset.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_17.asset.meta
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_17.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_18.asset
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_18.asset
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_18.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_18.asset.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_18.asset.meta
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_18.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_2.asset
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_2.asset
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_2.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_2.asset.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_2.asset.meta
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_2.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_3.asset
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_3.asset
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_3.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_3.asset.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_3.asset.meta
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_3.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_4.asset
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_4.asset
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_4.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_4.asset.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_4.asset.meta
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_4.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_5.asset
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_5.asset
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_5.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_5.asset.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_5.asset.meta
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_5.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_6.asset
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_6.asset
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_6.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_6.asset.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_6.asset.meta
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_6.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_7.asset
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_7.asset
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_7.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_7.asset.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_7.asset.meta
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_7.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_8.asset
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_8.asset
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_8.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_8.asset.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_8.asset.meta
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_8.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_9.asset
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_9.asset
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_9.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Tiles\rythmicsistertilemap-Sheet_9.asset.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\Tiles\rythmicsistertilemap-Sheet_9.asset.meta
+          projectPath: Assets\Tiles\rythmicsistertilemap-Sheet_9.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\rythmicsistertilemap-Sheet 1.png
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\rythmicsistertilemap-Sheet
+            1.png
+          projectPath: Assets\rythmicsistertilemap-Sheet 1.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\rythmicsistertilemap-Sheet 1.png.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\rythmicsistertilemap-Sheet
+            1.png.meta
+          projectPath: Assets\rythmicsistertilemap-Sheet 1.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\rythmicsistertilemap-Sheet.png
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\rythmicsistertilemap-Sheet.png
+          projectPath: Assets\rythmicsistertilemap-Sheet.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\rythmicsistertilemap-Sheet.png.meta
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\Assets\rythmicsistertilemap-Sheet.png.meta
+          projectPath: Assets\rythmicsistertilemap-Sheet.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Users\5924005872\OneDrive - School Board of Seminole County\Documents\GitHub\Rhythmic-Sisters\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
       - commitID: f4f78abd64cdb7e68e4256a6dcbafcb96415437a
         mergeA: 
         mergeB: 
@@ -2787,7 +3276,7 @@ MonoBehaviour:
           indexStatus: 4
           workTreeStatus: 0
       statusAhead: 0
-      selectedIndex: 5
+      selectedIndex: 8
     selectedEntry:
       commitID: c264f1f9c94a46746dc43b49724fc05ec275d092
       mergeA: 
@@ -3002,7 +3491,7 @@ MonoBehaviour:
   currentRemoteUrl: https://github.com/Destroyer910/Rhythmic-Sisters.git
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 1
+  hasItemsToCommit: 0
   isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: KyleMusicBranch
@@ -3013,13 +3502,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-04-06T13:54:14.046-04:00
+    updatedTimeString: 2023-04-20T12:58:39.587-04:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
     updatedTimeString: 2023-04-06T13:52:28.176-04:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-04-06T13:52:28.780-04:00
+    updatedTimeString: 0001-01-01T00:00:00.000+00:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -3037,10 +3526,10 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0
-  repositoryProgressMessage: 
-  appManagerProgressValue: 0
-  appManagerProgressMessage: 
+  repositoryProgressValue: 0.5
+  repositoryProgressMessage: Reading locks...
+  appManagerProgressValue: 1
+  appManagerProgressMessage: Initialized
   connections: []
   primaryConnectionUsername: 
 --- !u!114 &15
@@ -3097,9 +3586,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: be600000
-    m_LastClickedID: 24766
-    m_ExpandedIDs: 000000009e60000000ca9a3b
+    m_SelectedIDs: 9c7b0000
+    m_LastClickedID: 31644
+    m_ExpandedIDs: 000000007e7b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3127,7 +3616,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009e600000
+    m_ExpandedIDs: 000000007e7b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3255,9 +3744,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 2cfbffff
+      m_SelectedIDs: 466b0000
+      m_LastClickedID: 27462
+      m_ExpandedIDs: 2cfbffffe66f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -3273,7 +3762,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 5}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -3358,7 +3847,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -3561,9 +4050,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.6938123, y: 7.8651676, z: 0.0869485}
+    m_Target: {x: -2.1542172, y: 1.0759935, z: 0.0931793}
     speed: 2
-    m_Value: {x: -1.6938123, y: 7.8651676, z: 0.0869485}
+    m_Value: {x: -2.1542172, y: 1.0759935, z: 0.0931793}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -3614,9 +4103,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 13.477658
+    m_Target: 7.2397504
     speed: 2
-    m_Value: 13.477658
+    m_Value: 7.2397504
   m_Ortho:
     m_Target: 1
     speed: 2
