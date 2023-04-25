@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 4606784160242746021}
   - component: {fileID: 3033421559200080205}
   m_Layer: 0
-  m_Name: Note
+  m_Name: IronManNote
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -221,4 +221,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d28902f80582a14cabe44321e354cb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2.6
+  speed: 3.1333334
