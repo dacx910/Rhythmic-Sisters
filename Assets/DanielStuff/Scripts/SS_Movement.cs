@@ -5,7 +5,7 @@ using UnityEngine;
 public class SS_Movement : MonoBehaviour
 {
     [SerializeField] private float speed = 10;
-    [SerializeField] private float jump_height = 10;
+    [SerializeField] private float jump_height = 20;
     private Animator anim;
     private Rigidbody2D body;
     private bool grounded;
