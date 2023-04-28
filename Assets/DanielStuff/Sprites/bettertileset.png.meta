@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9fe07dd2838978f4da57af233d954a6b
+guid: 5c7783046b773da4f830c65cc92ddc4f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -101,15 +101,27 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bettertileset-Sheet_0
+      name: bettertileset_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 0
+        x: 0
+        y: 240
         width: 16
         height: 16
       alignment: 0
@@ -119,39 +131,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2326175e463d1a247871ee094e2f8d12
-      internalID: 1324066873
+      spriteID: 5432a38a7b0ce0746a3b6e2378b173b7
+      internalID: 1763429695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2cfd5831df74808489528a82eb9d55ab
-      internalID: 30016697
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bettertileset-Sheet_2
+      name: bettertileset_1
       rect:
         serializedVersion: 2
         x: 48
-        y: 0
+        y: 240
         width: 16
         height: 16
       alignment: 0
@@ -161,18 +152,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee28e85fb3053684bb5f2cf53ae50f51
-      internalID: -988621975
+      spriteID: 8f7ec2afefa6c3441acc778bc5f126ac
+      internalID: 2092660639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_3
+      name: bettertileset_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
+        x: 0
+        y: 224
         width: 16
         height: 16
       alignment: 0
@@ -182,18 +173,81 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdd04cb563068a94f92c156366422a6d
-      internalID: -967056796
+      spriteID: 9b3c61d0bc2ad554f8f187855b100b39
+      internalID: -2138306512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_4
+      name: bettertileset_3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0811bc41d65107d4cb4636e18fe90935
+      internalID: -1300948535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bettertileset_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177e83bdb32367c4097ef81d5bf9fa15
+      internalID: 819042803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bettertileset_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf89aea4c321a014084cab9581d599a1
+      internalID: 202694243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bettertileset_6
       rect:
         serializedVersion: 2
         x: 80
-        y: 0
+        y: 224
         width: 16
         height: 16
       alignment: 0
@@ -203,18 +257,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 935802713619a2241b2c4e243d1f75c3
-      internalID: 2122109856
+      spriteID: 2e30bc3763660d64b9b08980f807d9b4
+      internalID: -1497101932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_5
+      name: bettertileset_7
       rect:
         serializedVersion: 2
         x: 96
-        y: 0
+        y: 224
         width: 16
         height: 16
       alignment: 0
@@ -224,18 +278,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75c0317494bd68a4087de07582a4170a
-      internalID: 816603482
+      spriteID: 8438ea580e423344e8d504fa0a2e37f3
+      internalID: -1506939826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_6
+      name: bettertileset_8
       rect:
         serializedVersion: 2
         x: 112
-        y: 0
+        y: 224
         width: 16
         height: 16
       alignment: 0
@@ -245,18 +299,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d75dff8539913a4d8bed0eaf7a49e00
-      internalID: 1328231226
+      spriteID: a1ade9d33441d18498e5886b0ecf1dc0
+      internalID: 383345188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_7
+      name: bettertileset_9
       rect:
         serializedVersion: 2
         x: 128
-        y: 0
+        y: 224
         width: 16
         height: 16
       alignment: 0
@@ -266,60 +320,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e7aa36074dbbc847bc4743416301714
-      internalID: -1512407931
+      spriteID: 1f1537152e6684b4ab45a7b776fbf572
+      internalID: 1957170994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_8
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e187b3e888dcfc54ea7ddb67ad7d59fd
-      internalID: 619686882
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bettertileset-Sheet_9
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f40da5dd617c37646a7a13c11f2a81e1
-      internalID: -1154874310
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bettertileset-Sheet_10
+      name: bettertileset_10
       rect:
         serializedVersion: 2
         x: 176
-        y: 0
+        y: 224
         width: 16
         height: 16
       alignment: 0
@@ -329,18 +341,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d72fc1fac48d2a3448484deac5360f24
-      internalID: -33957299
+      spriteID: 589859d183454b447bc85ee9cb3a50d1
+      internalID: 1855741526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_11
+      name: bettertileset_11
       rect:
         serializedVersion: 2
         x: 192
-        y: 0
+        y: 224
         width: 16
         height: 16
       alignment: 0
@@ -350,18 +362,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79b1486a30802964494f0909d3ee1eaa
-      internalID: 185666257
+      spriteID: a49043dcfed1b434bbd623498847f49f
+      internalID: 469136962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_12
+      name: bettertileset_12
       rect:
         serializedVersion: 2
         x: 208
-        y: 0
+        y: 224
         width: 16
         height: 16
       alignment: 0
@@ -371,18 +383,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06b0277fc03d5ea43aa8016d10003052
-      internalID: 610844242
+      spriteID: 9fbbcb84ae2d5424aabadf14097bfdc2
+      internalID: 2035812997
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_13
+      name: bettertileset_13
       rect:
         serializedVersion: 2
         x: 224
-        y: 0
+        y: 224
         width: 16
         height: 16
       alignment: 0
@@ -392,18 +404,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5b3d4f378e8a214abc1b1a5d206142d
-      internalID: 1599801986
+      spriteID: 9b5adb7d912284b479b282c2177fdc67
+      internalID: -1810536850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_14
+      name: bettertileset_14
       rect:
         serializedVersion: 2
-        x: 240
-        y: 0
+        x: 0
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -413,18 +425,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 982e99c3de5672746960da11b093418e
-      internalID: -828831139
+      spriteID: 6a7d4783df3ef2842b640e0c2bf00028
+      internalID: 1856423091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_15
+      name: bettertileset_15
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
+        x: 16
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -434,18 +446,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7f465b825f3e4c448d8b1ced56131b4
-      internalID: -524543929
+      spriteID: c0f0f85d860da084ba1ae0ce77a3adfa
+      internalID: 1495050612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_16
+      name: bettertileset_16
       rect:
         serializedVersion: 2
-        x: 272
-        y: 0
+        x: 32
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -455,18 +467,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff29ddf128217f74eaafb3a8f291bb27
-      internalID: 700499544
+      spriteID: c9e3a2beb2585f14c8ee3aa3fccba1f5
+      internalID: 35483492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_17
+      name: bettertileset_17
       rect:
         serializedVersion: 2
-        x: 288
-        y: 0
+        x: 48
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -476,18 +488,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b2c07e9d9d703f4c8c1709251bf2e2f
-      internalID: -1181361263
+      spriteID: 6de908238dfc75046bc2e5eb3b77cb9a
+      internalID: 171946027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_18
+      name: bettertileset_18
       rect:
         serializedVersion: 2
-        x: 304
-        y: 0
+        x: 64
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -497,18 +509,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f53b24ad2c0e0584baafa9ea4aba62ba
-      internalID: -626457254
+      spriteID: b0de7aa9af52d2a459fa955b574f385d
+      internalID: -1753686943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_19
+      name: bettertileset_19
       rect:
         serializedVersion: 2
-        x: 320
-        y: 0
+        x: 80
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -518,18 +530,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afef5eb6a8b8b4c4bad2c93286d39d7d
-      internalID: -644663745
+      spriteID: b15a8a2776abb184b91529fb7e72a80e
+      internalID: -2090533504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_20
+      name: bettertileset_20
       rect:
         serializedVersion: 2
-        x: 336
-        y: 0
+        x: 96
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -539,18 +551,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3eb8597a98e8e324aa9ad4a176748f72
-      internalID: 2015827595
+      spriteID: 2b554ad6284467342a4d984faf3c19a3
+      internalID: -1281400264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_21
+      name: bettertileset_21
       rect:
         serializedVersion: 2
-        x: 352
-        y: 0
+        x: 112
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -560,18 +572,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2eb0739c1473ba4fba239182f7d1fd6
-      internalID: 904674042
+      spriteID: 5fc07389156de3f4ba1c7d0bd1046810
+      internalID: 1195756434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_22
+      name: bettertileset_22
       rect:
         serializedVersion: 2
-        x: 368
-        y: 0
+        x: 128
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -581,18 +593,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90e69b7ffbf40fc4a927050a7b548186
-      internalID: -131026481
+      spriteID: a93b4585ef193d04083e5e43e3da4fa1
+      internalID: -239861838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_23
+      name: bettertileset_23
       rect:
         serializedVersion: 2
-        x: 384
-        y: 0
+        x: 144
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -602,18 +614,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 867ba68a806275e4388b54d6227c6eba
-      internalID: -1313120187
+      spriteID: eb5034271a52d86409fb4f692304f87d
+      internalID: -2017930371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_24
+      name: bettertileset_24
       rect:
         serializedVersion: 2
-        x: 400
-        y: 0
+        x: 176
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -623,18 +635,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5669d53eb0195ba439313894a625ec14
-      internalID: 129629847
+      spriteID: 7c5ed6d17b036a24d939f62bc8027e8a
+      internalID: 1879889697
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_25
+      name: bettertileset_25
       rect:
         serializedVersion: 2
-        x: 416
-        y: 0
+        x: 192
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -644,18 +656,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77e9ec48a241834409ca9e864a3ca0db
-      internalID: -138843587
+      spriteID: 38145933e8a1d21439d5c3fe546cf28c
+      internalID: -420090229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_26
+      name: bettertileset_26
       rect:
         serializedVersion: 2
-        x: 432
-        y: 0
+        x: 208
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -665,18 +677,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 667baf69719449b43bab57e68f6f3ee9
-      internalID: 1313231654
+      spriteID: 569199a8d9171c0498b4a099ee25cecf
+      internalID: -485839185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_27
+      name: bettertileset_27
       rect:
         serializedVersion: 2
-        x: 448
-        y: 0
+        x: 224
+        y: 208
         width: 16
         height: 16
       alignment: 0
@@ -686,18 +698,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a51c4d23fb6decc43bea5169c618f8ce
-      internalID: 2078281566
+      spriteID: d3eaff18e3eaecc4696e02a607681ba0
+      internalID: -406211207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_28
+      name: bettertileset_28
       rect:
         serializedVersion: 2
-        x: 464
-        y: 0
+        x: 0
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -707,18 +719,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23d00be73750d0944a97a859bc1887b4
-      internalID: -1446352442
+      spriteID: 55d9cdda1562d8c419db37cef38ef0c2
+      internalID: -1819258014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_29
+      name: bettertileset_29
       rect:
         serializedVersion: 2
-        x: 480
-        y: 0
+        x: 16
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -728,18 +740,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de5690ab211b71542ad526a45811c888
-      internalID: -116696612
+      spriteID: 87e33895731364f49a889e564411fd7e
+      internalID: 710470278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_30
+      name: bettertileset_30
       rect:
         serializedVersion: 2
-        x: 496
-        y: 0
+        x: 32
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -749,18 +761,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5293abe3bb569df40be1dc7629e4836c
-      internalID: -378081112
+      spriteID: 3ad185b67bacaff4481dbfdafcc7d9a1
+      internalID: -1835683477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_31
+      name: bettertileset_31
       rect:
         serializedVersion: 2
-        x: 512
-        y: 0
+        x: 48
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -770,18 +782,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 003df223b0bcee945aa809f6e60441d8
-      internalID: 1635627724
+      spriteID: 2082dfb444208364199117c9de9de4a5
+      internalID: -356925434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_32
+      name: bettertileset_32
       rect:
         serializedVersion: 2
-        x: 528
-        y: 0
+        x: 64
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -791,18 +803,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b259f2738a5fd8418946722b95f4d08
-      internalID: -101470039
+      spriteID: 89575e1c967940346b063155c3dd5067
+      internalID: 563526931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_33
+      name: bettertileset_33
       rect:
         serializedVersion: 2
-        x: 544
-        y: 0
+        x: 80
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -812,18 +824,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ed986280d1c09240a686d6f04ecf8a4
-      internalID: 1120509357
+      spriteID: f906936eef767c741b37ccc1c7c08e24
+      internalID: 1200415268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_34
+      name: bettertileset_34
       rect:
         serializedVersion: 2
-        x: 560
-        y: 0
+        x: 96
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -833,18 +845,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 394f83278f3a530489b11243ce902c0e
-      internalID: -1221965197
+      spriteID: c87682e7522cf264288884a09914414d
+      internalID: 100519330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_35
+      name: bettertileset_35
       rect:
         serializedVersion: 2
-        x: 576
-        y: 0
+        x: 112
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -854,18 +866,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e9a46de8967c93499166b6352de906f
-      internalID: -125875051
+      spriteID: 47b06d8ef7e5c99409916e52d49fcd78
+      internalID: 2001288014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_36
+      name: bettertileset_36
       rect:
         serializedVersion: 2
-        x: 592
-        y: 0
+        x: 128
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -875,18 +887,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c959d81e4ccfb74c8337996d21bc23e
-      internalID: -1136557336
+      spriteID: 1d70473dfcd138741af6df6f4ea31cb1
+      internalID: 830061547
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_37
+      name: bettertileset_37
       rect:
         serializedVersion: 2
-        x: 608
-        y: 0
+        x: 144
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -896,18 +908,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed7f3325b4f297947a62553a12a94f9a
-      internalID: -1587142633
+      spriteID: 82f54aa97b0281245b76a42f72169d6a
+      internalID: -682571543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_38
+      name: bettertileset_38
       rect:
         serializedVersion: 2
-        x: 624
-        y: 0
+        x: 176
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -917,18 +929,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 516095deec9c3074fa7f1fa1db687ff4
-      internalID: 1904323953
+      spriteID: 5ede5cc1e2d5143408b22b1de7e67044
+      internalID: 538840857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_39
+      name: bettertileset_39
       rect:
         serializedVersion: 2
-        x: 640
-        y: 0
+        x: 192
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -938,18 +950,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 571edb2bbe3fd0340be53cdf381a242b
-      internalID: 1215449465
+      spriteID: bba878a6f55be5d449eafe59a2aa7b79
+      internalID: 1508787470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_40
+      name: bettertileset_40
       rect:
         serializedVersion: 2
-        x: 656
-        y: 0
+        x: 208
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -959,18 +971,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b2557ec2d676424b8d03b3f969cad85
-      internalID: -1609902485
+      spriteID: add159caafaf48a49a2e2649d9c66d2b
+      internalID: 460294384
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_41
+      name: bettertileset_41
       rect:
         serializedVersion: 2
-        x: 672
-        y: 0
+        x: 224
+        y: 192
         width: 16
         height: 16
       alignment: 0
@@ -980,18 +992,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f681b141e8377444b94f027569f9b9a2
-      internalID: -605932740
+      spriteID: 51d84df71f120f244b76740095aa3211
+      internalID: 1835182877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_42
+      name: bettertileset_42
       rect:
         serializedVersion: 2
-        x: 688
-        y: 0
+        x: 0
+        y: 176
         width: 16
         height: 16
       alignment: 0
@@ -1001,18 +1013,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f2e68b6914e8054a952c33bb7bd0dfc
-      internalID: 338047666
+      spriteID: 59f103df3053a7041850a5b017cad65c
+      internalID: 1852975262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_43
+      name: bettertileset_43
       rect:
         serializedVersion: 2
-        x: 704
-        y: 0
+        x: 16
+        y: 176
         width: 16
         height: 16
       alignment: 0
@@ -1022,18 +1034,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c2efef975b16d94cafafdb0b700d64f
-      internalID: 1186346161
+      spriteID: d74949ae96657c04d8d6ecd76b5aed00
+      internalID: 2086536815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_44
+      name: bettertileset_44
       rect:
         serializedVersion: 2
-        x: 720
-        y: 0
+        x: 32
+        y: 176
         width: 16
         height: 16
       alignment: 0
@@ -1043,18 +1055,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39d0a4e88177f4145b37e241fb5028d2
-      internalID: 2068216225
+      spriteID: 9abbfad29fab4064185d096051203898
+      internalID: 703475916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_45
+      name: bettertileset_45
       rect:
         serializedVersion: 2
-        x: 736
-        y: 0
+        x: 48
+        y: 176
         width: 16
         height: 16
       alignment: 0
@@ -1064,18 +1076,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb4c2bd1e3d22354cacdb4dde9b0d883
-      internalID: -1306254221
+      spriteID: 68f3810c50d15d843a1e5fbbfa08039d
+      internalID: 137847763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bettertileset-Sheet_46
+      name: bettertileset_46
       rect:
         serializedVersion: 2
-        x: 752
-        y: 0
+        x: 96
+        y: 176
         width: 16
         height: 16
       alignment: 0
@@ -1085,8 +1097,239 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 085748c7497347d4a94df2bd08c3d0cf
-      internalID: -530712442
+      spriteID: 3c7046aac68b32a42ade563c985468da
+      internalID: -1589586240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bettertileset_47
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8cf64d53d705054fbeb3a7988f13065
+      internalID: -1279769166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bettertileset_48
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fc04adccfc42747a9aa517af50f618
+      internalID: 1561289110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bettertileset_49
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e820747a4bcbc4da2c18c6e73818ed
+      internalID: -1999954779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bettertileset_50
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec73119568abad47bca4c4f2635f62f
+      internalID: 1088749366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bettertileset_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db9871fa61b5db489d41ff0e59999f2
+      internalID: -2116206680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bettertileset_52
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d9ee9b868f9da4289fe8ab24d44d0b
+      internalID: 2058034653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bettertileset_53
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04edf68fa2ff25247acb9b75657fabaa
+      internalID: 1926963415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bettertileset_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2316cb8b89687064ba7d39db3814cfd2
+      internalID: -926821042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bettertileset_55
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9276586b629f9a4b89ab1b5d932e3c4
+      internalID: -1081040144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bettertileset_56
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873f973e937afbb45ac1b50cb638ec39
+      internalID: -197011325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bettertileset_57
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d010bdf43708f4246a163f389642d2d9
+      internalID: 916255181
       vertices: []
       indices: 
       edges: []
@@ -1102,53 +1345,64 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      bettertileset-Sheet_9: -1154874310
-      bettertileset-Sheet_33: 1120509357
-      bettertileset-Sheet_25: -138843587
-      bettertileset-Sheet_19: -644663745
-      bettertileset-Sheet_38: 1904323953
-      bettertileset-Sheet_46: -530712442
-      bettertileset-Sheet_16: 700499544
-      bettertileset-Sheet_14: -828831139
-      bettertileset-Sheet_18: -626457254
-      bettertileset-Sheet_1: 30016697
-      bettertileset-Sheet_36: -1136557336
-      bettertileset-Sheet_31: 1635627724
-      bettertileset-Sheet_45: -1306254221
-      bettertileset-Sheet_12: 610844242
-      bettertileset-Sheet_20: 2015827595
-      bettertileset-Sheet_26: 1313231654
-      bettertileset-Sheet_34: -1221965197
-      bettertileset-Sheet_2: -988621975
-      bettertileset-Sheet_6: 1328231226
-      bettertileset-Sheet_15: -524543929
-      bettertileset-Sheet_17: -1181361263
-      bettertileset-Sheet_22: -131026481
-      bettertileset-Sheet_27: 2078281566
-      bettertileset-Sheet_44: 2068216225
-      bettertileset-Sheet_4: 2122109856
-      bettertileset-Sheet_28: -1446352442
-      bettertileset-Sheet_35: -125875051
-      bettertileset-Sheet_39: 1215449465
-      bettertileset-Sheet_0: 1324066873
-      bettertileset-Sheet_7: -1512407931
-      bettertileset-Sheet_29: -116696612
-      bettertileset-Sheet_42: 338047666
-      bettertileset-Sheet_11: 185666257
-      bettertileset-Sheet_3: -967056796
-      bettertileset-Sheet_5: 816603482
-      bettertileset-Sheet_8: 619686882
-      bettertileset-Sheet_23: -1313120187
-      bettertileset-Sheet_37: -1587142633
-      bettertileset-Sheet_10: -33957299
-      bettertileset-Sheet_13: 1599801986
-      bettertileset-Sheet_24: 129629847
-      bettertileset-Sheet_32: -101470039
-      bettertileset-Sheet_40: -1609902485
-      bettertileset-Sheet_41: -605932740
-      bettertileset-Sheet_21: 904674042
-      bettertileset-Sheet_30: -378081112
-      bettertileset-Sheet_43: 1186346161
+      bettertileset_16: 35483492
+      bettertileset_55: -1081040144
+      bettertileset_43: 2086536815
+      bettertileset_1: 2092660639
+      bettertileset_51: -2116206680
+      bettertileset_56: -197011325
+      bettertileset_20: -1281400264
+      bettertileset_54: -926821042
+      bettertileset_50: 1088749366
+      bettertileset_24: 1879889697
+      bettertileset_25: -420090229
+      bettertileset_34: 100519330
+      bettertileset_6: -1497101932
+      bettertileset_13: -1810536850
+      bettertileset_23: -2017930371
+      bettertileset_4: 819042803
+      bettertileset_15: 1495050612
+      bettertileset_49: -1999954779
+      bettertileset_38: 538840857
+      bettertileset_2: -2138306512
+      bettertileset_18: -1753686943
+      bettertileset_14: 1856423091
+      bettertileset_3: -1300948535
+      bettertileset_8: 383345188
+      bettertileset_9: 1957170994
+      bettertileset_52: 2058034653
+      bettertileset_0: 1763429695
+      bettertileset_44: 703475916
+      bettertileset_32: 563526931
+      bettertileset_27: -406211207
+      bettertileset_37: -682571543
+      bettertileset_12: 2035812997
+      bettertileset_28: -1819258014
+      bettertileset_57: 916255181
+      bettertileset_10: 1855741526
+      bettertileset_5: 202694243
+      bettertileset_36: 830061547
+      bettertileset_22: -239861838
+      bettertileset_42: 1852975262
+      bettertileset_47: -1279769166
+      bettertileset_53: 1926963415
+      bettertileset_7: -1506939826
+      bettertileset_19: -2090533504
+      bettertileset_21: 1195756434
+      bettertileset_31: -356925434
+      bettertileset_26: -485839185
+      bettertileset_30: -1835683477
+      bettertileset_17: 171946027
+      bettertileset_33: 1200415268
+      bettertileset_40: 460294384
+      bettertileset_48: 1561289110
+      bettertileset_41: 1835182877
+      bettertileset_39: 1508787470
+      bettertileset_29: 710470278
+      bettertileset_45: 137847763
+      bettertileset_46: -1589586240
+      bettertileset_35: 2001288014
+      bettertileset_11: 469136962
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
