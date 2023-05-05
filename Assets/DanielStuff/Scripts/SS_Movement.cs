@@ -37,6 +37,7 @@ public class SS_Movement : MonoBehaviour
         // Set animator parameters
         anim.SetBool("run", horizontalInput != 0);
         anim.SetBool("grounded", grounded);
+
     }
 
     private void Jump() {
