@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Note
   - Kill
+  - Col1
+  - Col2
+  - Col3
+  - Col4
   layers:
   - Default
   - TransparentFX
