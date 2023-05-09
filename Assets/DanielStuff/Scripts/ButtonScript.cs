@@ -8,11 +8,12 @@ public class ButtonScript : MonoBehaviour
     public bool isInRange;
     public KeyCode interactKey = KeyCode.E;
     public UnityEvent interactAction;
+    SpriteRenderer sr;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        sr = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -23,6 +24,7 @@ public class ButtonScript : MonoBehaviour
             if(Input.GetKeyDown(interactKey))
             {
                 interactAction.Invoke();
+                sr.color = new Color(255,0,0);
             }
         }
     }
