@@ -25,8 +25,14 @@ public class ButtonScript : MonoBehaviour
             {
                 interactAction.Invoke();
                 sr.color = new Color(255,0,0);
+                StartCoroutine(sleep(1));
+                sr.color = new Color(0,0,0);
             }
         }
+    }
+
+    IEnumerator sleep(int delay) {
+        yield return new WaitForSeconds(1);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
