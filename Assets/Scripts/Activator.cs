@@ -28,7 +28,6 @@ public class Activator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        active = false;
         if(createMode)
         {
             if(Input.GetKeyDown(key))
@@ -38,39 +37,21 @@ public class Activator : MonoBehaviour
         }
         else
         {
-            
-            // if(Input.GetKeyDown(key))
-            // {
-            //     StartCoroutine(Pressed());
-            //     active = true;
-            //     Debug.Log("Key Down");
-            // }
-            // if(Input.GetKeyDown(key) && active == false)
-            // {
-            //     LowerScore(20);
-            //     Debug.Log("Key Down & Active is False");
-            // }
-            // if(Input.GetKeyDown(key) && active)
-            // {
-            //     Destroy(note);
-            //     AddScore();
-            //     Debug.Log("Key Down & Active is True");
-            // }
-
             if(Input.GetKeyDown(key))
             {
-                StartCoroutine(Pressed()); //Starts the Pressed Coroutine, which changes the color of the activator to black for a short period of time.
+                StartCoroutine(Pressed());
+                active = true;
             }
-            else if(Input.GetKeyDown(key) && active == false)
+            if(Input.GetKeyDown(key) && active)
+            {
+                Destroy(note);
+                AddScore();
+                active = false;
+            }
+            else if(Input.GetKeyDown(key) && active)
             {
                 LowerScore(20);
             }
-            if(Input.GetKeyDown(key) && active == true)
-            {
-                AddScore();
-                Destroy(note);
-            }
-            
             
             if(score <= 0)
             {
