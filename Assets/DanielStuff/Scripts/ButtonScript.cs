@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,7 +8,10 @@ public class ButtonScript : MonoBehaviour
 {
     public bool isInRange;
     public KeyCode interactKey = KeyCode.E;
-    public UnityEvent interactAction;
+//    public UnityEvent interactAction;
+    public Sprite Button;
+    public Sprite ToggledButton;
+    public Object;
     SpriteRenderer sr;
 
     // Start is called before the first frame update
@@ -23,16 +27,19 @@ public class ButtonScript : MonoBehaviour
         {
             if(Input.GetKeyDown(interactKey))
             {
-                interactAction.Invoke();
-                sr.color = new Color(255,0,0);
-                StartCoroutine(sleep(1));
-                sr.color = new Color(0,0,0);
+                
+                
+                StartCoroutine(toggleButton(0.5f));
+                
             }
         }
     }
 
-    IEnumerator sleep(int delay) {
-        yield return new WaitForSeconds(1);
+    IEnumerator toggleButton(float seconds)
+    {
+        sr.sprite = ToggledButton;
+        yield return new WaitForSeconds(seconds);
+        sr.sprite = Button;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
