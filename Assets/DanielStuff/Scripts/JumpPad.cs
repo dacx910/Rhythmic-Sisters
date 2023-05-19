@@ -30,10 +30,10 @@ public class JumpPad : MonoBehaviour
     {
         if (Activated)
         {
-            enabled = false;
+            Activated = false;
         } else
         {
-            enabled = true;
+            Activated = true;
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)

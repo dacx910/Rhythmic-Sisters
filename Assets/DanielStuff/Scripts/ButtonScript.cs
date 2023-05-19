@@ -11,7 +11,7 @@ public class ButtonScript : MonoBehaviour
 //    public UnityEvent interactAction;
     public Sprite Button;
     public Sprite ToggledButton;
-    public Object;
+    public GameObject Target;
     SpriteRenderer sr;
 
     // Start is called before the first frame update
@@ -27,10 +27,8 @@ public class ButtonScript : MonoBehaviour
         {
             if(Input.GetKeyDown(interactKey))
             {
-                
-                
+                Target.GetComponent<JumpPad>().ChangeStatus();
                 StartCoroutine(toggleButton(0.5f));
-                
             }
         }
     }
