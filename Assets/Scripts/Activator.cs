@@ -34,26 +34,31 @@ public class Activator : MonoBehaviour
             {
                 Instantiate(n, transform.position, Quaternion.identity);
             }
+
+            
         }
         else
         {
-            if(Input.GetKeyDown(key))
+            if(Input.GetKeyDown(key)) // When an activation key is pressed, the activator will change its color to black for 0.05 seconds.
             {
                 StartCoroutine(Pressed());
-                active = true;
             }
-            if(Input.GetKeyDown(key) && active)
+            
+            //Active is set to true when a note hits an activator.
+
+            if(Input.GetKeyDown(key) && active) // If the given key is down and a note is in the activator's collision box, AddScore() and Destroy the note.
             {
                 Destroy(note);
                 AddScore();
                 active = false;
             }
-            else if(Input.GetKeyDown(key) && active)
+            else if(Input.GetKeyDown(key) && !active) // If the given key is down and a note is not in an activator's collison box, 20 points will be deducted.
             {
                 LowerScore(20);
             }
             
-            if(score <= 0)
+            
+            if(score <= 0) //Used to wrap the code to zero if it hits or goes under 0.
             {
                 score = 0;
             }
