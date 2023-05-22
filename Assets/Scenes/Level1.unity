@@ -4608,7 +4608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a6e00e562984b84c9d92d48ea413aa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: 
+  SceneName: Iron Man
 --- !u!61 &1027322018
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5493,7 +5493,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 20daa800a641d9e4cae18a06630db1ef, type: 3}
+  m_Sprite: {fileID: -129942631, guid: dcb1ddd2165290a46bdafcae3eea4095, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5512,7 +5512,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1744448891}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.91999435, y: -0.34000015, z: 0}
+  m_LocalPosition: {x: -0.91999435, y: -2.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -5587,6 +5587,6 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.04423523, y: -0.5113783}
-  m_Size: {x: 0.7886658, y: 1.4172916}
+  m_Offset: {x: -0.011773288, y: -0.0149793625}
+  m_Size: {x: 0.9263545, y: 1.9756227}
   m_Direction: 0

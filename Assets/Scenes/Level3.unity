@@ -656,7 +656,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 751643279}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.45, y: 2.35, z: 0}
+  m_LocalPosition: {x: 9.31, y: 2.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -55678,6 +55678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a6e00e562984b84c9d92d48ea413aa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SceneName: Back in Black
 --- !u!61 &1156186684
 BoxCollider2D:
   m_ObjectHideFlags: 0
