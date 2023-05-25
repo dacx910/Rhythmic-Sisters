@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class NoteManaging : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class NoteManaging : MonoBehaviour
     int noteNum;
     static int maxScore;
     static double minScore;
+
+    public string nextScene;
 
     static float speed = Note.getSpeed();
 
@@ -45,5 +48,13 @@ public class NoteManaging : MonoBehaviour
     public static double getMinScore()
     {
         return minScore;
+    }
+
+    void OnCollisionEnter2D(Collider2D col)
+    {
+        if(col.gameObject.tag == "Activator")
+        {
+            SceneManager.LoadScene(nextScene);   
+        }
     }
 }

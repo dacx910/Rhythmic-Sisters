@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: [Ground, Note, Kill, Col1, Col2, Col3, Col4]
+  tags:
+  - Ground
+  - Note
+  - Kill
+  - Col1
+  - Col2
+  - Col3
+  - Col4
+  - Activator
   layers:
   - Default
   - TransparentFX
