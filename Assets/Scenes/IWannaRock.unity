@@ -2320,6 +2320,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8713592943004447908, guid: cd8f571ce542a214298608f0b34861f2, type: 3}
+      propertyPath: nextScene
+      value: Level3
+      objectReference: {fileID: 0}
     - target: {fileID: 8713592943004447909, guid: cd8f571ce542a214298608f0b34861f2, type: 3}
       propertyPath: m_Name
       value: NoteManager
@@ -2330,11 +2334,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8713592943004447911, guid: cd8f571ce542a214298608f0b34861f2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 398.7589
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8713592943004447911, guid: cd8f571ce542a214298608f0b34861f2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 287.47275
+      value: 312.14
       objectReference: {fileID: 0}
     - target: {fileID: 8713592943004447911, guid: cd8f571ce542a214298608f0b34861f2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2366,6 +2370,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8713592943004447911, guid: cd8f571ce542a214298608f0b34861f2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8976456812430955090, guid: cd8f571ce542a214298608f0b34861f2, type: 3}
+      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

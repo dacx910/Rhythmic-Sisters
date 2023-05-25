@@ -12,6 +12,7 @@ TagManager:
   - Col3
   - Col4
   - Activator
+  - Manager
   layers:
   - Default
   - TransparentFX

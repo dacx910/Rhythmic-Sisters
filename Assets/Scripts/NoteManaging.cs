@@ -12,7 +12,7 @@ public class NoteManaging : MonoBehaviour
 
     public string nextScene;
 
-    static float speed = Note.getSpeed();
+    static float speed;
 
     Rigidbody2D rb;
 
@@ -20,6 +20,8 @@ public class NoteManaging : MonoBehaviour
     {
         noteNum = 0;
         maxScore = 0;
+
+        speed = Note.getSpeed();
 
         Debug.Log(speed);
 
@@ -40,6 +42,11 @@ public class NoteManaging : MonoBehaviour
         minScore = maxScore * .8f;
     }
 
+    void Update()
+    {
+        
+    }
+
     public static int getMaxScore()
     {
         return maxScore;
@@ -50,10 +57,12 @@ public class NoteManaging : MonoBehaviour
         return minScore;
     }
 
-    void OnCollisionEnter2D(Collision2D col)
+    void OnTriggerEnter2D(Collider2D col)
     {
+        Debug.Log("Test");
         if(col.gameObject.tag == "Activator")
         {   
+            Debug.Log("ACTIVATOR");
             if (Activator.getScore() > minScore)
             {
                 SceneManager.LoadScene(nextScene);   
