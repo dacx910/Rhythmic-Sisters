@@ -57,7 +57,6 @@ public class Activator : MonoBehaviour
                 LowerScore(20);
             }
             
-            
             if(score <= 0) //Used to wrap the code to zero if it hits or goes under 0.
             {
                 score = 0;

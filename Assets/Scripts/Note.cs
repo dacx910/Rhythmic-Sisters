@@ -46,7 +46,7 @@ public class Note : MonoBehaviour
         }
         else
         {
-            Debug.Log("Something broke");
+            // Debug.Log("Something broke");
         }
     }
 }
