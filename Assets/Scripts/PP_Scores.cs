@@ -10,6 +10,6 @@ public class PP_Scores : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GetComponent<Text>().text = Activator.getScore().ToString() + " / " + ((int)NoteManaging.getMinScore()).ToString(); 
+        GetComponent<Text>().text = Activator.getScore().ToString() + " / " + ((int) NoteManaging.getMinScore()).ToString(); 
     }
 }

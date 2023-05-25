@@ -8,10 +8,13 @@ public class Note : MonoBehaviour
     SpriteRenderer sr;
     [SerializeField] float speed;
 
+    public static float statSpeed;
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+        statSpeed = speed;
     }
 
     // Start is called before the first frame update
@@ -48,5 +51,10 @@ public class Note : MonoBehaviour
         {
             // Debug.Log("Something broke");
         }
+    }
+
+    public static float getSpeed()
+    {
+        return statSpeed;
     }
 }
