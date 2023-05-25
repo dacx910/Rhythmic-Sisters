@@ -71,10 +71,6 @@ public class Activator : MonoBehaviour
         {
             note = col.gameObject;
         }
-        else if(col.gameObject.tag == "Manager")
-        {
-            Debug.Log("j");
-        }
     }
 
     void OnTriggerExit2D(Collider2D col)

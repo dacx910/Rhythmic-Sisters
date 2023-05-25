@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class SS_Movement : MonoBehaviour
 {
     [SerializeField] private float speed = 10;
@@ -37,6 +37,11 @@ public class SS_Movement : MonoBehaviour
         // Set animator parameters
         anim.SetBool("run", horizontalInput != 0);
         anim.SetBool("grounded", grounded);
+
+        if(body.transform.position.y < -50)
+        {
+            SceneManager.LoadScene("LoseScreen");
+        }
 
     }
 
