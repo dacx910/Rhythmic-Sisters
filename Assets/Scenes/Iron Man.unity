@@ -82001,6 +82001,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8713592943004447908, guid: cd8f571ce542a214298608f0b34861f2, type: 3}
+      propertyPath: nextScene
+      value: Level2
+      objectReference: {fileID: 0}
     - target: {fileID: 8713592943004447909, guid: cd8f571ce542a214298608f0b34861f2, type: 3}
       propertyPath: m_Name
       value: NoteManager

@@ -5,19 +5,28 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: 3489eb8298a315548b94717fc4d45339
   - enabled: 1
     path: Assets/Scenes/Iron Man.unity
     guid: 85e86df089082e0499567b01c712f321
   - enabled: 1
-    path: Assets/Scenes/Level3.unity
-    guid: 5248993aea40dd041948aafb75de3c38
+    path: Assets/Scenes/Level2.unity
+    guid: 3f4660587d367194fa9ffbd5455a940b
   - enabled: 1
     path: Assets/Scenes/Back in Black.unity
     guid: 4a373e6ae311ace479c2215012a3b5fe
   - enabled: 1
-    path: Assets/Scenes/UI/LoseScreen.unity
+    path: Assets/Scenes/Level3.unity
+    guid: 5248993aea40dd041948aafb75de3c38
+  - enabled: 1
+    path: Assets/Scenes/IWannaRock.unity
+    guid: 819d43a029173b8468d9d80afda3a7ed
+  - enabled: 1
+    path: Assets/Scenes/UI/DeathScreen/LoseScreen.unity
     guid: 02ce5b527dc0bfd48b91e2dc7fe32c80
   m_configObjects: {}
