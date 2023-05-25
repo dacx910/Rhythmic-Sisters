@@ -50,11 +50,18 @@ public class NoteManaging : MonoBehaviour
         return minScore;
     }
 
-    void OnCollisionEnter2D(Collider2D col)
+    void OnCollisionEnter2D(Collision2D col)
     {
         if(col.gameObject.tag == "Activator")
-        {
-            SceneManager.LoadScene(nextScene);   
+        {   
+            if (Activator.getScore() > minScore)
+            {
+                SceneManager.LoadScene(nextScene);   
+            }
+            else
+            {
+                SceneManager.LoadScene("LoseScreen");
+            }
         }
     }
 }
